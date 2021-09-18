@@ -1,0 +1,37 @@
+@font-face {font-family: "Poor Richard"; src: url("//db.onlinewebfonts.com/t/1333b13c4f911f3160f1c2822573f70c.eot");
+    src: url("//db.onlinewebfonts.com/t/1333b13c4f911f3160f1c2822573f70c.eot?#iefix") format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/1333b13c4f911f3160f1c2822573f70c.woff2") format("woff2"),
+    url("//db.onlinewebfonts.com/t/1333b13c4f911f3160f1c2822573f70c.woff") format("woff"),
+    url("//db.onlinewebfonts.com/t/1333b13c4f911f3160f1c2822573f70c.ttf") format("truetype"), format("svg"); }
+
+body {
+    background-color: aquamarine;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.bGColor {
+    background-color: aquamarine;
+}
+.pwd {
+    font-family: Poor Richard, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+@-webkit-keyframes blinker {
+    from {opacity: 1.0;}
+    to {opacity: 0.0;}
+  }
+  .blink{
+      text-decoration: blink;
+      -webkit-animation-name: blinker;
+      -webkit-animation-duration: 0.6s;
+      -webkit-animation-iteration-count:infinite;
+      -webkit-animation-timing-function:ease-in-out;
+      -webkit-animation-direction: alternate;
+  }
+
+  .blink{
+    align-content: center;
+    padding-top: 16px;
+    font-size: 7rem;
+    color: red;
+}
