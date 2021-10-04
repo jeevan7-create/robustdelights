@@ -6,12 +6,8 @@
 
 
 .block {
-    background-color: #205275;
+    background-color: #333333;
     padding: 0%;
-}
-
-#mask{
-    color: #000;
 }
 
 .rdSize {
@@ -26,20 +22,8 @@
     font-family: poor Richard, Georgia, 'Times New Roman', Times, serif;
     }
 
-#psize   {
-    font-size: 1rem;
-    text-align: center;
-} 
-
-@-webkit-keyframes blinker {
-    from {opacity: 1.0;}
-    to {opacity: 0.0;}
-  }
-  .blink{
-      text-decoration: blink;
-      -webkit-animation-name: blinker;
-      -webkit-animation-duration: 0.6s;
-      -webkit-animation-iteration-count:infinite;
-      -webkit-animation-timing-function:ease-in-out;
-      -webkit-animation-direction: alternate;
-  }
+.overlay {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: wheat;
+    margin-top: 3rem;
+}
