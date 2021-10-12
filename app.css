@@ -1,8 +1,4 @@
-@font-face {font-family: "Poor Richard"; src: url("//db.onlinewebfonts.com/t/1333b13c4f911f3160f1c2822573f70c.eot");
-    src: url("//db.onlinewebfonts.com/t/1333b13c4f911f3160f1c2822573f70c.eot?#iefix") format("embedded-opentype"),
-    url("//db.onlinewebfonts.com/t/1333b13c4f911f3160f1c2822573f70c.woff2") format("woff2"),
-    url("//db.onlinewebfonts.com/t/1333b13c4f911f3160f1c2822573f70c.woff") format("woff"),
-    url("//db.onlinewebfonts.com/t/1333b13c4f911f3160f1c2822573f70c.ttf") format("truetype"), format("svg"); }
+@import url('http://fonts.cdnfonts.com/css/eras-demi-itc');
 
 
 .block {
@@ -19,7 +15,9 @@
     margin-bottom: 12px;
 }    
 .title {
-    font-family: poor Richard, Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Eras Demi ITC', sans-serif;
+    font-size: 2rem;
+    color: #333333
     }
 
 .overlay {
